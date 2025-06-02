@@ -30,7 +30,7 @@ window.onload = () => {
     draw() {
       c.beginPath()
       c.arc(this.x, this.y, this.size, 0, Math.PI * 2)
-      c.fillStyle = 'rgb(195 210 185 / 0.5)';
+      c.fillStyle = 'rgb(157 173 147 / 0.5)';
       c.fill()
       c.closePath()
     }
@@ -63,7 +63,7 @@ window.onload = () => {
           c.beginPath();
           c.moveTo(particles[i].x, particles[i].y);
           c.lineTo(particles[j].x, particles[j].y);
-          c.strokeStyle = `rgb(195 210 185 / ${opacity})`;
+          c.strokeStyle = `rgb(101 128 84 / ${opacity})`;
           c.stroke(); 
         }
         for (let k = 0; k < particles.length; k++) {
@@ -77,7 +77,7 @@ window.onload = () => {
             c.lineTo(particles[j].x, particles[j].y)
             c.lineTo(particles[k].x, particles[k].y)
             c.closePath()
-            c.fillStyle = `rgb(195 210 185 / ${opacity2})`
+            c.fillStyle = `rgb(157 173 147 / ${opacity2})`
             c.fill()
           } 
         }
