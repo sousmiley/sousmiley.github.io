@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Soumya's Portfolio</title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+  <body>
+    <nav id="navigation_bar">
+      <div class="flip-box">
+        <div class="flip-box-inner">
+          <div class="flip-box-front">
+            <p style="color: black;">Soumya</p>
+          </div>
+          <div class="flip-box-back">
+            <img src="images/favicon.png"style="width:40px; height:40px">
+          </div>
+        </div>
+      </div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skill">Skills</a></li>
+          <li><a href="#experiences">Experiences</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section id="home">
+      <canvas id="canvas"></canvas>
+        <div class="home_text">
+            <p class="home_wave_text">Hi <span class="wave">👋</span> </p>
+              <h1 class="home_title">I'm Soumya,</h1> 
+            <p class="home_subtitle"> a budding computer scientist based in the Pacific Northwest!</p>
+       </div>
+      <script src="script.js"></script>
+    </section>
+    <section id="about">
+      <div class="profile_picture">
+        <img src="images/MyProfile.JPG" id="profile_picture_style"  alt="A smiling picture of a me, I have black hair and dark eyes.">
+      </div>
+      <div class="home">
+         <p class="subtitle_header">Get To Know More</p>
+         <h1 class="title">About Me</h1>
+         <br>
+        <p class = "home_linespace_style"> I'm a part-time coder and full-time cryptanalyst. I like designing things, especially software, ciphers, and puzzles. 
+        </p>
+        <p class = "home_linespace_style">
+          Based in British Columbia, I’m pursuing a bachelor’s degree in Software Systems with a minor in Geography, at Simon Fraser University. 
+        </p>
+        <p class = "home_linespace_style">
+          I have an extensive background in design and marketing through my work as a Senior Yearbook Editor, as well as Web Designer and Social Media Director for the PRSJC. As the former Director of Events for SFU Team Phantom, I enjoy organizing experiences that bring people together and build a strong sense of community.
+        </p>
+        <p class = "home_linespace_style">
+          When I am not working on current projects or debugging my code, I can be found kayaking, building puzzles, or exploring new cafes in the lower mainland.
+        </p>
+        <br/>
+        <div class="button">
+          <button class="buttonStyle github_button" onclick="location.href='https://github.com/sousmiley'"> My Github </button> 
+          <button class="buttonStyle contact_button" onclick="location.href='#contact'"> Contact Info </button> 
+        </div>
+      </div>
+    </section>
+
+    <section id="skill">
+      <p class="subtitle_header" >Check out my</p>
+         <h1 class="title">Skills</h1>
+        <div class="skills_section">
+          <div class="skill">
+            <img src="images/python.png" alt="Python Icon">
+            <span>Python</span>
+          </div>
+          <div class="skill">
+            <img src="images/c.png" alt="C Icon">
+            <span>C</span>
+          </div>
+          <div class="skill">
+            <img src="images/c++.png" alt="C++ Icon">
+            <span>C++</span>
+          </div>
+          <div class="skill">
+            <img src="images/java.png" alt="Java Icon">
+            <span>Java</span>
+          </div>
+          <div class="skill">
+            <img src="images/vue.png" alt="Vue Icon">
+            <span>Vue</span>
+          </div>
+          <div class="skill">
+            <img src="images/javascript.png" alt="JavaScript Icon">
+            <span>JavaScript</span>
+          </div>
+        </div>
+
+        <div class="skills_section">
+          <div class="skill">
+            <img src="images/react.png" alt="React Icon">
+            <span>React</span>
+          </div>
+          <div class="skill">
+            <img src="images/git.png" alt="Git Icon">
+            <span>Git</span>
+          </div>
+          <div class="skill">
+            <img src="images/docker.png" alt="Docker Icon">
+            <span>Docker</span>
+          </div>
+          <div class="skill">
+            <img src="images/html.png" alt="HTML Icon">
+            <span>HTML</span>
+          </div>
+          <div class="skill">
+            <img src="images/css.png" alt="CSS Icon">
+            <span>CSS</span>
+          </div>
+        </div>
+
+         <div class="education_section">
+          <div class="education-education_style">
+            <div class="education_box">
+              <div class="education_style">
+                <img alt="SFU Crest" loading="lazy" class="easeload"
+                width="140" height="140" style="padding-bottom: 20px;"
+                decoding="async" data-nimg="1" 
+                style="color:transparent" srcset="images/SFUcrest.png"/>
+
+                <p class = "small" style="padding-bottom: 10px;"> School of Computing Science | Faculty of Applied Sciences</p>
+                <h4 style="padding-bottom: 10px;">Bachelors of Science in Computing Science</h4>
+                <p class = "small"> SIMON FRASER UNIVERSITY <br/> Major in Software Systems <br />Minor in Geography</p>
+              </div>
+              <div class="education_style">
+                <img alt="UofT Crest" loading="lazy" class="easeload"
+                width="130" height="130" style="padding-bottom: 27px;"
+                decoding="async" data-nimg="1" 
+                style="color:transparent" srcset="images/UofTcrest.jpeg"/>
+
+                <p class = "small" style="padding-bottom: 10px;"> Faculty of Engineering Secondary School | Department of Engineering</p>
+                <h4 style="padding-bottom: 10px;">Technological Design (TDJ2O)</h4>
+                <p class = "small"> UNIVERSITY OF OTTAWA<br /> Built various projects using microcomputers applying the Engineering Design Process.</p>
+              </div>
+              <div class="education_style">
+                <img alt="PRSS Crest" loading="lazy" class="easeload"
+                width="130" height="130" style="padding-bottom: 27px;"
+                decoding="async" data-nimg="1" 
+                style="color:transparent" srcset="images/PRSScrest.png"/>
+
+                <p class = "small" style="padding-bottom: 10px;"> 12 year French Immersion Program </p>
+                <h4 style="padding-bottom: 10px;">Diplôme de fin d'études secondaires</h4>
+                <p class = "small"> ÉCOLE PANORAMA RIDGE SECONDARY<br /> Graduated 2022<br /> Diplôme d'études en langue française (DELF) French Level B2. </p>
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
+    <section id="experiences">
+      <h1 class="title">My Experiences and Projects</h1>
+      <p class="subtitle_header">at a glance</p>
+      <div class="timeline">
+
+        <div class="container left-container">
+          <img src="images/wicsLogo.jpeg" alt="Wics logo"> 
+          <div class="text-box">
+            <h2>SFU Women in Computing Science (WiCS)</h2>
+              <small>2022 - present</small>
+            <p>Engaging with members of the SFU computing community to support, challenge biases, and promote women in their pursuit, study, and practice of computing science.</p>
+            <span class="left-container-arrow"></span>
+          </div>
+        </div>
+
+        <div class="container right-container">
+          <img src="images/bcHydroLogo.jpeg"alt="BC Hydro Logo"> 
+          <div class="text-box" >
+            <h2>Geospatial Data Analysis of Power Outages and Impacted Areas</h2>
+              <small>2025</small>
+              <small><i>Python, Python Libraries, Jupyter, ArcGis, Vue</i></small>
+            <p>Built a data pipeline to acquire, clean, and process outage data from BC Hydro using Pandas compatible formats.</p>
+            <p>Implemented geospatial analysis to compute outage distances from key landmarks and automated data filtering to remove outliers, enhancing the quality of data for analysis.</p>
+            <p>Developed visualizations including graphs and interactive maps using Vue to support user engagement.</p>
+            <span class="right-container-arrow"></span>
+          </div>
+        </div>
+
+        <div class="container left-container">
+          <img src="images/housplantAssistantLogo.png" alt="Houseplant Assistant Wesbite Logo"> 
+          <div class="text-box" >
+            <h2>The Houseplant Assistant</h2>
+              <small>2024</small>
+              <small><i>Perenual API, Google Tasks API, NodeJS, GitHub Actions</i></small>
+            <p>Created a web application which assists individuals to effortlessly keep up with plant care tasks.</p>
+            <p>Integrated Perenual API for plant database to provide users with detailed plant and gardening information.</p>
+            <p>Implemented Google Tasks API to allow users to seamlessly create and manage plant care reminders.</p>
+            <span class="left-container-arrow"></span>
+          </div>
+        </div>
+
+        <div class="container right-container">
+          <img src="images/ecopathLogo.png"  alt="Ecopath Representative Logo"> 
+          <div class="text-box" >
+            <h2>EcoPath [Hack-The-Sem 2024 (WiCS x GDSC) Hackathon]</h2>
+              <small>2024</small>
+              <small><i>React, NodeJS, Git, Figma</i></small>
+            <p>Developed a web app prototype that tracks users ecological footprint to promote sustainable lifestyle choices.</p>
+            <p>Implemented a user friendly frontend using React and backend logic with Node.js</p> 
+            <p>Pitched solution to stakeholders and received mentorship throughout the development process.</p>
+            <span class="right-container-arrow"></span>
+          </div>
+        </div>
+
+        <div class="container left-container">
+          <img src="images/teamPhantomLogo.jpeg"  alt="SFU Team Phantom Logo"> 
+          <div class="text-box" >
+            <h2>Director of Events, SFU Team Phantom, Formula SAE Electric</h2>
+              <small>2023</small>
+            <p>Initiated and planned engaging events that brought members together and supported the organization’s goals.</p>
+            <p>Coordinated event space reservations and ensured efficient allocation of resources while adhering to budget constraints.</p>
+            <p>Collaborated with the executive board to approve event ideas, facilitated cross departmental communication, and raised public awareness and engagement for events through media communication.</p>
+            <span class="left-container-arrow"></span>
+          </div>
+        </div>
+
+        <div class="container right-container">
+          <img src="images/tasteOfItalyLogo.png"  alt="Taste of Italy Logo"> 
+          <div class="text-box" >
+            <h2>Digital cookbook: tastes of Italy</h2>
+              <small>2022</small>
+            <p>The success of every websites depends on search engine optimisation and digital marketing strategy. If you are on first page of all major search...</p>
+            <span class="right-container-arrow"></span>
+          </div>
+        </div>
+
+        <div class="container left-container">
+          <img src="images/SJCLogo.png"  alt="SJC Logo"> 
+          <div class="text-box" >
+            <h2>Web Designer and Social Media Director, PRSJC</h2>
+              <small>2020 - 2022</small>
+              <small><i>Photoshop, Canva, Adobe Creative Suite, Instagram, TikTok</i></small>
+            <p>Utilized graphic design and image editing software to create visual compositions and develop clear and concise outlines.</p>
+            <p>Designed social media posts to educate and inform the public regarding fundraising events and activities</p>
+            <span class="left-container-arrow"></span>
+          </div>
+        </div>
+
+        <div class="container right-container">
+          <img src="images/FriesensLogo.jpeg"  alt="Friesens Logo"> 
+          <div class="text-box" >
+            <h2>Senior Editor, ÉPRSS Yearbook</h2>
+              <small>2019 - 2022</small>
+              <small><i>Photoshop, Canva, Adobe Creative Suite, FriesensPress (Connect Me, BuildIt, and DesignIt)</i></small>
+            <p>Managed editorial content, outlined the annual Flatplan, established the design mandate (typography, visual elements, and editorial style) 
+              for the yearbook. </p>
+              <p>Developed written and visual content, including article features, special commemorations, and graphic design elements.</p>
+            <p>Mentored students from Grades 8 to 12, trained YB staff in using Adobe Creative Suite, Canva, and FriesensPress software to build layouts and design page templates.</p>
+            <span class="right-container-arrow"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <section id="contact">
+      <h1 class="title">Contact Me</h1>
+      <p class="subtitle_header">Feel free to get in touch with me</p>
+      <a href="mailto:soumya_parmar@sfu.ca"><img src="images/emailIcon.png" alt="Paper plane icon." class="icon"></a>
+    </section>
+
+    <div id="footer">
+      <center>
+        <p>Page designed by <a href="https://github.com/sousmiley">Soumya P.</a> All Rights Reserved.</p>
+      </center>
+    </div>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const images = document.querySelectorAll(".easeload");
+
+        const observer = new IntersectionObserver((entries, observer) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              const img = entry.target;
+              const dataSrc = img.getAttribute("data-src");
+
+              if (dataSrc) {
+                img.src = dataSrc;
+              }
+
+              img.classList.add("visible");
+              observer.unobserve(img); 
+            }
+          });
+        }, {
+          threshold: 0.1
+        });
+
+        images.forEach(img => observer.observe(img));
+      });
+    </script>
+  </body>
+</html>
