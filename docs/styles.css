@@ -171,6 +171,18 @@ body {
   gap: 1rem;
 }
 
+.project_button{
+  border: rgb(195, 210, 185) 0.1rem solid;
+  background: none;
+  margin-top:10px;
+}
+.project_button:hover{
+  cursor: pointer;
+  color: white;
+  background: rgb(40, 42, 37);
+  border: rgb(40, 42, 37) 0.1rem solid;
+}
+
 .contact_button, .github_button {
   border: rgb(62, 64, 59) 0.1rem solid;
 }
