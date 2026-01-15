@@ -1,3 +1,7 @@
+/*
+  Referenced : https://codepen.io/Colt4D5/pen/VwxvPpZ
+*/
+
 window.onload = () => {
   const canvas = document.querySelector('canvas#canvas')
   const c = canvas.getContext('2d')
